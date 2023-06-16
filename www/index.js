@@ -3,8 +3,8 @@ import { memory } from "wasm-game-of-life/wasm_game_of_life_bg";
 
 const CELL_SIZE = 5;
 const GRID_COLOR = "#CCCCCC";
-const DEAD_COLOR = "#FFFFFF";
-const ALIVE_COLOR = "#000000";
+const DEAD_COLOR = "#FF0000";
+const ALIVE_COLOR = "#00FF00";
 
 const universe = Universe.new();
 const width = universe.width();
